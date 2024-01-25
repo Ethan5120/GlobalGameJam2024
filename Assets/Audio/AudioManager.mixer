@@ -51,6 +51,8 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: 81d3754ce991b2f4bae76f6a87e49536
     name: Music
+  - guid: bf39b21bfe24cc242a3d2216056d4c53
+    name: Sonido
   m_AudioMixerGroupViews:
   - guids:
     - b6873669b035bee4b9fe40c639f1d7a5
