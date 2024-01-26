@@ -13,9 +13,13 @@ public class NewRoundShuffler : MonoBehaviour
     public List<GameRounds> Rounds;
     private List<int> RNumberSeq = new List<int>();
 
+    [SerializeField] int NoRound;
+    Vector2 target;
+
 
     void Start()
     {
+        target.y = 0;
         RoundSetup();
     }
 
@@ -37,16 +41,21 @@ public class NewRoundShuffler : MonoBehaviour
             Debug.Log(r);
             RNumberSeq.Add(r);
         }
+
+        //Once the shuffle is done, Place then in their positions
+        for(int i = 0; i < 5; i++)
+        {
+            target.x = -6 + (3 * i);   
+            Rounds[NoRound].InnmatesInRound[RNumberSeq[i]].transform.position = target;
+        }
+
+
+
         
     }
 
        
-        //Once the shuffle is done, Place then in their positions
-        /*for(int i = 0; i < 5;)
-        {
-            target.x = -6 + (3 * i);   
-            Order[i].transform.position = target;
-        }*/
+
         
 }
 

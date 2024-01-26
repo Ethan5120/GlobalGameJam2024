@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 881501599}
   - component: {fileID: 881501598}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Asigner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1116,7 +1116,35 @@ MonoBehaviour:
     - {fileID: 649004796}
     - {fileID: 94060966}
     - {fileID: 719409092}
-  RNumberSeq: 
+  - name: Round2
+    InnmatesInRound:
+    - {fileID: 1375064919}
+    - {fileID: 936548537}
+    - {fileID: 1034047216}
+    - {fileID: 790309070}
+    - {fileID: 2131921956}
+  - name: Round3
+    InnmatesInRound:
+    - {fileID: 233803565}
+    - {fileID: 1294725125}
+    - {fileID: 634303210}
+    - {fileID: 925424995}
+    - {fileID: 899603164}
+  - name: Round4
+    InnmatesInRound:
+    - {fileID: 1789472288}
+    - {fileID: 1784612193}
+    - {fileID: 1306127785}
+    - {fileID: 988665549}
+    - {fileID: 376678105}
+  - name: Round5
+    InnmatesInRound:
+    - {fileID: 1818156600}
+    - {fileID: 431869894}
+    - {fileID: 1009913882}
+    - {fileID: 980795048}
+    - {fileID: 1470758167}
+  NoRound: 3
 --- !u!4 &881501599
 Transform:
   m_ObjectHideFlags: 0
@@ -1126,7 +1154,7 @@ Transform:
   m_GameObject: {fileID: 881501597}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.9292784, y: 0.715685, z: -0.0064867977}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
