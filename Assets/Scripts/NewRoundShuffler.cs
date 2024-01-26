@@ -1,24 +1,21 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public class GameRounds
+{
+    public string name;
+    public List<GameObject> InnmatesInRound = new List<GameObject>();
+}
+
 public class NewRoundShuffler : MonoBehaviour
 {
-    [System.Serializable]
-    public class GameRounds
-    {
-        public string name;
-        public List<GameObject> InnmatesInRound = new List<GameObject>();
-    }
-    public List<GameRounds> Rounds = new List<GameRounds>();
-    public List<GameObject> Order = new List<GameObject>();
-    [SerializeField] int Round = 0;
-    [SerializeField] int x;
-    Vector2 target;
+    public List<GameRounds> Rounds;
+    private List<int> RNumberSeq = new List<int>();
+
 
     void Start()
     {
-        target.y = 0;
         RoundSetup();
     }
 
@@ -29,17 +26,21 @@ public class NewRoundShuffler : MonoBehaviour
 
     void RoundSetup()
     {
-        //Shuffle the order of the characters
-        for(int i = 0; i < 4; i++)
+        //Setup the order
+        for(int i = 0; i < 5; i++)
         {
-            x = Random.Range(0, 4);
-            //if(CharCheck())
-            //{
-            Debug.Log(x);
-            Order.Add(Rounds[Round].InnmatesInRound[x]);
-                
-            //}
+            int r = Random.Range(0, 5);
+            while (RNumberSeq.Contains(r))
+            {
+                r = Random.Range(0, 5);
+            }
+            Debug.Log(r);
+            RNumberSeq.Add(r);
         }
+        
+    }
+
+       
         //Once the shuffle is done, Place then in their positions
         /*for(int i = 0; i < 5;)
         {
@@ -47,22 +48,7 @@ public class NewRoundShuffler : MonoBehaviour
             Order[i].transform.position = target;
         }*/
         
-    }
-
-    bool CharCheck()
-    {
-        for(int j = 0; j < Order.Capacity; j++)
-        {
-            if(Order[j] == null)
-            {
-                break;
-            }
-            else if(Rounds[Round].InnmatesInRound[x].name == Order[j].name)
-            {
-                return false;
-            }
-        }
-        return true;
-    }
-    
 }
+
+    
+
