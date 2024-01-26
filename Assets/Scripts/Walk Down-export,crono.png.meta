@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f9f5ad1bd641fd54299653340f7e9199
+guid: b39885024348c6f46b8f574ffcdbfaea
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Explosion_0
+      name: Walk Down-export,crono_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 96
-        height: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58b17a8e300fc8840a9ef6ee5056c34d
-      internalID: 1959191735
+      spriteID: 870255b44660b734ebb50c7c89e87e60
+      internalID: -1879683886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_1
+      name: Walk Down-export,crono_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd428f9605e5864abf7d9d7f0681402
+      internalID: 1349496472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down-export,crono_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2be09fa87abc004ebe1a97660aae731
+      internalID: -716724639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down-export,crono_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb4cd200c5a02241b9e43b2bc2ef945
+      internalID: 59824988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down-export,crono_4
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 96
-        height: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +208,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3702fad548f2ca45af32258177169a0
-      internalID: 611737326
+      spriteID: 471e5fca44b8b85428b4b3dba38f2436
+      internalID: 799215360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_2
+      name: Walk Down-export,crono_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af29f6e4be34e1743b4e23f89c26cd1a
+      internalID: 1148038391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down-export,crono_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dde2556c9e6a7e4887d4b7946f3a0bb
+      internalID: -1169623997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down-export,crono_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d798cc1667038ff47aec206effa4fe06
+      internalID: -1424921589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down-export,crono_8
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 96
-        height: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d49a982b5e9c9d54ca05e8c59c4a442c
-      internalID: -490555847
+      spriteID: d007a4d29db4d4444a75a2d745b36346
+      internalID: -501547312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_3
+      name: Walk Down-export,crono_9
       rect:
         serializedVersion: 2
-        x: 288
+        x: 216
         y: 0
-        width: 96
-        height: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f432747f5d78cc5418b0d03cf9df2fdb
-      internalID: -983077812
+      spriteID: 15e2aa498a75d8e4baa42cfd97c85ef3
+      internalID: -1571273045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_4
+      name: Walk Down-export,crono_10
       rect:
         serializedVersion: 2
-        x: 384
+        x: 240
         y: 0
-        width: 96
-        height: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f407094f738a5af4c813835c32344664
-      internalID: 109103019
+      spriteID: af61925b0b4a1114dbdb2035745fa982
+      internalID: -1747430724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_5
+      name: Walk Down-export,crono_11
       rect:
         serializedVersion: 2
-        x: 480
+        x: 264
         y: 0
-        width: 96
-        height: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,134 +355,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 094103972df987e48812a87869172e17
-      internalID: -365113732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_6
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8d0c8746204c9f42afbfeb22377252d
-      internalID: -131287531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_7
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0b25ca50f097794e93c9d4a46ec3390
-      internalID: -627955219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_8
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 008bf2acee5fe5f4d8ef2753bf54c146
-      internalID: 839590308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_9
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c37a9cbdc36f41a48879ff95f703caf4
-      internalID: 1138916327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_10
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 032779277b7381f4aa2fb4c01757cba9
-      internalID: -2046249588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_11
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 0
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8f747f0e7f74fe40ad80938bfb5ae19
-      internalID: -708973165
+      spriteID: b4b4e71642ad18747b39ae07ace5e236
+      internalID: 923857842
       vertices: []
       indices: 
       edges: []
@@ -372,18 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Explosion_0: 1959191735
-      Explosion_1: 611737326
-      Explosion_10: -2046249588
-      Explosion_11: -708973165
-      Explosion_2: -490555847
-      Explosion_3: -983077812
-      Explosion_4: 109103019
-      Explosion_5: -365113732
-      Explosion_6: -131287531
-      Explosion_7: -627955219
-      Explosion_8: 839590308
-      Explosion_9: 1138916327
+      Walk Down-export,crono_0: -1879683886
+      Walk Down-export,crono_1: 1349496472
+      Walk Down-export,crono_10: -1747430724
+      Walk Down-export,crono_11: 923857842
+      Walk Down-export,crono_2: -716724639
+      Walk Down-export,crono_3: 59824988
+      Walk Down-export,crono_4: 799215360
+      Walk Down-export,crono_5: 1148038391
+      Walk Down-export,crono_6: -1169623997
+      Walk Down-export,crono_7: -1424921589
+      Walk Down-export,crono_8: -501547312
+      Walk Down-export,crono_9: -1571273045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
