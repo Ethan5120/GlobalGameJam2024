@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/miguel hongo/ui.unity
+    guid: be9e7566d606af9498365f4f37181d6c
+  - enabled: 1
+    path: Assets/Scenes/miguel hongo/opciones.unity
+    guid: 1b73b71f36c5e294780dcc603c6d0cb4
   m_configObjects: {}
