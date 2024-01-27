@@ -1,13 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class Timer : MonoBehaviour
 {
-   
-    public float timer = 0;
+    [SerializeField] ScriptableManager GM;
    
    
   
@@ -18,16 +14,16 @@ public class Timer : MonoBehaviour
     void Update()
     {
         
-        timer -= Time.deltaTime;
+        GM.CurrentTime -= Time.deltaTime;
         
         
-        textoTimerPro.text = "" + timer.ToString("f0");
+        textoTimerPro.text = "" + GM.CurrentTime.ToString("f0");
 
-        if (timer < 0)
+        if (GM.CurrentTime < 0)
         {
-            //teminar ronda
+            //GmaeOver
             Debug.Log("se acabo la busqueda");
-            timer = 0;  
+            GM.CurrentTime = 0;  
         }
 
     }
