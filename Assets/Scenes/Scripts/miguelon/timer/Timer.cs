@@ -34,11 +34,11 @@ public class Timer : MonoBehaviour
             GM.CurrentState = ScriptableManager.GameState.Endgame;
         }
 
-        if (GM.Strikes >= 3)
-        {
-            GM.CurrentState = 0;
+        if (GM.Strikes >=3){
+            Debug.Log("3 strikes");
+            GM.CurrentTime=0;
+            GM.CurrentState=ScriptableManager.GameState.Endgame;
         }
-
     }
 
 

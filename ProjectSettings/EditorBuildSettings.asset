@@ -5,10 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+  - enabled: 0
+    path: Assets/Scenes/miguel hongo/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: ee39e7c48a5865b48b9719fda84d7152
+  - enabled: 1
+    path: Assets/Scenes/Endgame.unity
+    guid: c11847bf280ea4040ae00a28d9132060
+  - enabled: 1
+    path: Assets/Scenes/Wingame.unity
+    guid: df93fadf1b3098445919cffdd692ae78
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 0d04792e532f5a846b9d66749f92d390
   m_configObjects: {}
