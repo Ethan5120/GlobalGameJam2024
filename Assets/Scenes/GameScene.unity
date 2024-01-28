@@ -352,7 +352,7 @@ MonoBehaviour:
   p4: {fileID: 233803565}
   vd: {fileID: 879039445}
   isGuilty: 1
-  objectSound: {fileID: 0}
+  objectSound: {fileID: 1165286293}
 --- !u!114 &74192780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3493,7 +3493,7 @@ GameObject:
   - component: {fileID: 879039448}
   - component: {fileID: 879039447}
   m_Layer: 0
-  m_Name: VideoCreeper
+  m_Name: VideoAvion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3537,7 +3537,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879039445}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c83298b6602a14143950fe1f961e10ef, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 0a2fe5aaea20d19498e10628ce248127, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3585,7 +3585,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cbfe5d829c6a8514b83e0d6ef5c2fd6b, type: 2}
+  - {fileID: 2100000, guid: 22cef4c256c5eff4bb9831fca4b2a970, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5839,7 +5839,7 @@ AudioSource:
   m_GameObject: {fileID: 1165286293}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 1878627658553435063, guid: b874cadbfa813f74fbb83941abc3751a, type: 2}
   m_audioClip: {fileID: 8300000, guid: ec2d7ed9a7196414baf9b54899fe3877, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.75
@@ -7177,7 +7177,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 994aa995ac080de468683d6736b63324, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7270,7 +7270,7 @@ MonoBehaviour:
   p4: {fileID: 1789472288}
   vd: {fileID: 1922040620}
   isGuilty: 1
-  objectSound: {fileID: 0}
+  objectSound: {fileID: 1165286293}
 --- !u!114 &1739155410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7829,7 +7829,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0.5
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
@@ -8361,7 +8361,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922040620}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7ff324723ea57f14582d9c9cd5b222e1, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 3a4f8b5accfcfae45a5b0e3bc2ebbe0d, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -8409,7 +8409,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cb4e5192646ad37408576ce4c0cf5c3e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8689,7 +8689,7 @@ MonoBehaviour:
   p4: {fileID: 1861253154}
   vd: {fileID: 1823843597}
   isGuilty: 1
-  objectSound: {fileID: 0}
+  objectSound: {fileID: 1165286293}
 --- !u!1 &1998814278
 GameObject:
   m_ObjectHideFlags: 0
@@ -8791,7 +8791,7 @@ MonoBehaviour:
   p4: {fileID: 1375064919}
   vd: {fileID: 1577253109}
   isGuilty: 1
-  objectSound: {fileID: 0}
+  objectSound: {fileID: 1165286293}
 --- !u!114 &2013918664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9159,7 +9159,7 @@ MonoBehaviour:
   p4: {fileID: 1818156600}
   vd: {fileID: 1701480746}
   isGuilty: 1
-  objectSound: {fileID: 0}
+  objectSound: {fileID: 1165286293}
 --- !u!114 &2052255304
 MonoBehaviour:
   m_ObjectHideFlags: 0
