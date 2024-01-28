@@ -23,6 +23,12 @@ public class menu : MonoBehaviour
 
     }
 
+     public void cambioMenu()
+    {
+    SceneManager.LoadScene("MainMenu");
+    }
+
+
     public void Salir()
     {
         Debug.Log("Tilin se fue de sabatico cariño");
