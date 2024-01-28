@@ -12,14 +12,17 @@ public class MenuKill : MonoBehaviour
 
     public GameObject objectSound;
     private AudioSource audioSource;
+    [SerializeField] InputMouse CT;
 
-    private void Start() {
+    private void Start()
+    {
         audioSource = objectSound.GetComponent<AudioSource>();
     }
 
     public void BotonNo()
     {
         m.SetActive(false);
+        //CT.ActivarColliders();
     }
 
     public void BotonSi()
@@ -40,6 +43,7 @@ public class MenuKill : MonoBehaviour
             GM.Strikes += 1;
             m.SetActive(false);
         }
+        //CT.ActivarColliders();
         // Cambio de ronda
     }
 }

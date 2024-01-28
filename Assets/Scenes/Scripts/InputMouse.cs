@@ -12,6 +12,8 @@ public class InputMouse : MonoBehaviour
     public bool press = false;
     public GameObject panel;
 
+    public GameObject c1, c2, c3;
+
 
     private void Awake()
     {
@@ -47,7 +49,41 @@ public class InputMouse : MonoBehaviour
     {
         Debug.Log("Presiono el mouse");
         panel.SetActive(true);
+        //DesactivateColliders();
         //ChangeAnimationState(Explo);
     }
-}
 
+    /*
+
+    private void DesactivateColliders()
+    {
+        if (c1 != null && c1.GetComponent<Collider2D>() != null)
+        {
+            c1.GetComponent<Collider2D>().enabled = false;
+        }
+        if (c2 != null && c2.GetComponent<Collider2D>() != null)
+        {
+            c2.GetComponent<Collider2D>().enabled = false;
+        }
+        if (c3 != null && c3.GetComponent<Collider2D>() != null)
+        {
+            c3.GetComponent<Collider2D>().enabled = false;
+        }
+    }
+
+    public void ActivarColliders()
+    {
+        if (c1 != null && c1.GetComponent<Collider2D>() != null)
+        {
+            c1.GetComponent<Collider2D>().enabled = true;
+        }
+        if (c2 != null && c2.GetComponent<Collider2D>() != null)
+        {
+            c2.GetComponent<Collider2D>().enabled = true;
+        }
+        if (c3 != null && c3.GetComponent<Collider2D>() != null)
+        {
+            c3.GetComponent<Collider2D>().enabled = true;
+        }
+    }*/
+}
