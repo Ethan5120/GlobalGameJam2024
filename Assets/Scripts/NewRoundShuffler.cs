@@ -30,7 +30,7 @@ public class NewRoundShuffler : MonoBehaviour
 
     void Start()
     {
-        target.y = 0;
+        target.y = -5f;
         GM.Round = 0;
         currentRound = 5;
         GM.CurrentTime = GM.SetTimer;
@@ -79,7 +79,7 @@ public class NewRoundShuffler : MonoBehaviour
             //Once the shuffle is done, Place then in their positions
             for(int i = 0; i < 4; i++)
             {
-                target.x = -6 + (4 * i);   
+                target.x = -6.5f + (4.5f * i);   
                 Rounds[GM.Round].InnmatesInRound[RNumberSeq[i]].transform.position = target;
             }
 
