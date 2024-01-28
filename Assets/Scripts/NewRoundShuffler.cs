@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class GameRounds
@@ -47,14 +48,19 @@ public class NewRoundShuffler : MonoBehaviour
                 RoundSetup();
                 break;
             }
-            case ScriptableManager.GameState.Result:
+            case ScriptableManager.GameState.Endgame:
             {
-
-
+                SceneManager.LoadScene("Endgame");
                 break;
             }
-
+            case ScriptableManager.GameState.Wingame:
+            {
+                SceneManager.LoadScene("Wingame");
+                break;
+            }
         }
+
+
 
         
     }
