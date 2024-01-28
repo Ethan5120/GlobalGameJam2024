@@ -19,7 +19,7 @@ public class menu : MonoBehaviour
 
     public void EscenasCambios()
     {
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    SceneManager.LoadScene("GameScene");
 
     }
 
