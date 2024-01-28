@@ -9,6 +9,14 @@ public class MenuKill : MonoBehaviour
     public GameObject p1, p2, p3, p4;
     public GameObject vd;
     public bool isGuilty;
+
+    public GameObject objectSound;
+    private AudioSource audioSource;
+
+    private void Start() {
+        audioSource = objectSound.GetComponent<AudioSource>();
+    }
+
     public void BotonNo()
     {
         m.SetActive(false);
@@ -16,7 +24,7 @@ public class MenuKill : MonoBehaviour
 
     public void BotonSi()
     {
-        if(isGuilty)
+        if (isGuilty)
         {
             m.SetActive(false);
             p1.SetActive(false);
@@ -28,7 +36,9 @@ public class MenuKill : MonoBehaviour
         }
         else
         {
+            audioSource.Play();
             GM.Strikes += 1;
+            m.SetActive(false);
         }
         // Cambio de ronda
     }

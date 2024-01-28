@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 public class Timer : MonoBehaviour
 {
     [SerializeField] ScriptableManager GM;
+    public GameObject timer;
    
    
   
@@ -17,6 +18,10 @@ public class Timer : MonoBehaviour
         if(GM.CurrentState == ScriptableManager.GameState.Selection)
         {
             DisplayTime();
+            timer.SetActive(true);
+        }
+        else {
+            timer.SetActive(false);
         }
 
 

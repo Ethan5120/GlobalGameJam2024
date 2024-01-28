@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GameManager
   m_EditorClassIdentifier: 
   CurrentState: 2
-  Strikes: 3
+  Strikes: 0
   SetTimer: 180
-  CurrentTime: 0
+  CurrentTime: 171.7804
   Round: 0
