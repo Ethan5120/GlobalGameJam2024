@@ -13,11 +13,7 @@ public class Timer : MonoBehaviour
   
     void Update()
     {
-        
-        GM.CurrentTime -= Time.deltaTime;
-        
-        
-        textoTimerPro.text = "" + GM.CurrentTime.ToString("f0");
+        DisplayTime();
 
         if (GM.CurrentTime < 0)
         {
@@ -26,5 +22,15 @@ public class Timer : MonoBehaviour
             GM.CurrentTime = 0;  
         }
 
+    }
+
+
+    void DisplayTime()
+    {
+        GM.CurrentTime -= Time.deltaTime;
+
+        float minutes = Mathf.FloorToInt(GM.CurrentTime / 60);  
+        float seconds = Mathf.FloorToInt(GM.CurrentTime % 60);
+        textoTimerPro.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }
