@@ -5,19 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class menu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void EscenaJuego()
+    /*public void EscenaJuego()
     {
         SceneManager.LoadScene("ui");
     }
@@ -25,6 +15,12 @@ public class menu : MonoBehaviour
     public void CargarNivel(string nombreNivel)
     {
         SceneManager.LoadScene(nombreNivel);
+    }*/
+
+    public void EscenasCambios()
+    {
+     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 
     public void Salir()
