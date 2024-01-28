@@ -15,5 +15,5 @@ MonoBehaviour:
   CurrentState: 0
   Strikes: 0
   SetTimer: 180
-  CurrentTime: 14.651723
-  Round: 3
+  CurrentTime: 180
+  Round: 1
