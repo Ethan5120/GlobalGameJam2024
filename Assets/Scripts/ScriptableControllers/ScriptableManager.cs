@@ -5,7 +5,7 @@ public class ScriptableManager : ScriptableObject
 {
     //Game Manager Variables
 
-    public enum GameState{Menus, SetUp, Selection, Result}
+    public enum GameState{Menus, SetUp, Selection, Result, Endgame, Wingame}
 
     [Header("GameState")]
     public GameState CurrentState;

@@ -5,6 +5,7 @@ using UnityEngine.Video;
 
 public class VideoSystem : MonoBehaviour
 {
+    [SerializeField] ScriptableManager GM;
     public VideoPlayer video;
     public GameObject pj;
     private void Awake() {
@@ -16,5 +17,16 @@ public class VideoSystem : MonoBehaviour
     void CheckOver(VideoPlayer vp){
         gameObject.SetActive(false);
         pj.SetActive(false);
+        
+        if(GM.Round < 4)
+            {
+                GM.Round += 1;
+                GM.CurrentState = ScriptableManager.GameState.SetUp;
+            }
+            else
+            {
+                GM.CurrentState = ScriptableManager.GameState.Wingame;
+            }
+
     }
 }
