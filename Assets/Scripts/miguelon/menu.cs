@@ -19,12 +19,13 @@ public class menu : MonoBehaviour
 
     public void EscenasCambios()
     {
-     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 
     public void Salir()
     {
+        Debug.Log("Tilin se fue de sabatico cariño");
         Application.Quit();
     }
 
