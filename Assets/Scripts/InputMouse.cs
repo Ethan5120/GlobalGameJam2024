@@ -18,19 +18,19 @@ public class InputMouse : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    void ChangeAnimationState(string newState)
+    /*void ChangeAnimationState(string newState)
     {
         if (currentState == newState) return;
         animator.Play(newState);
         currentState = newState;
-    }
+    }*/
 
     private void OnMouseEnter()
     {
         if (press == false)
         {
             Debug.Log("Entro");
-            ChangeAnimationState(Idle);
+            //ChangeAnimationState(Idle);
         }
     }
 
@@ -39,7 +39,7 @@ public class InputMouse : MonoBehaviour
         if (press == false)
         {
             Debug.Log("Salio");
-            ChangeAnimationState(Stop);
+            //ChangeAnimationState(Stop);
         }
     }
 
