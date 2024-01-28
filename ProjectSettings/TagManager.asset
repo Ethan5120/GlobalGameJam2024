@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3419477459
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Curtain
+    uniqueID: 3909373123
+    locked: 0
+  - name: Results
+    uniqueID: 2993644957
+    locked: 0
+  - name: TableOverlay
+    uniqueID: 4196852879
     locked: 0
