@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ece9ed15257b5340ac5061ce00c5a67, type: 3}
   m_Name: GameManager
   m_EditorClassIdentifier: 
-  CurrentState: 0
+  CurrentState: 2
   Strikes: 0
   SetTimer: 180
-  CurrentTime: 180
-  Round: 1
+  CurrentTime: 171.7804
+  Round: 0
