@@ -11,6 +11,8 @@ public class InputMouse : MonoBehaviour
     const string Explo = "explosion";
     bool press = false;
 
+    public GameObject vd;
+
 
     private void Awake()
     {
@@ -45,8 +47,10 @@ public class InputMouse : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("Presiono el mouse");
-        ChangeAnimationState(Explo);
+        ChangeAnimationState(Stop);
+        //ChangeAnimationState(Explo);
         press = true;
+        vd.SetActive(true);
     }
 }
 
