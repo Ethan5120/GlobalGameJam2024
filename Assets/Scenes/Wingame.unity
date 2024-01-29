@@ -707,6 +707,7 @@ GameObject:
   - component: {fileID: 893099198}
   - component: {fileID: 893099197}
   - component: {fileID: 893099196}
+  - component: {fileID: 893099200}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -799,6 +800,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &893099200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893099195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbaa644d89a037342a4cd99242c649d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &925450691
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,7 +848,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.7, y: 203}
+  m_AnchoredPosition: {x: -538, y: 203}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &925450693
@@ -881,7 +894,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 925450694}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 893099200}
+        m_TargetAssemblyTypeName: menu, Assembly-CSharp
+        m_MethodName: EscenasCambios
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &925450694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -956,7 +981,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300.7, y: 203}
+  m_AnchoredPosition: {x: 571, y: 203}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1150149866
@@ -1002,7 +1027,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150149867}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 893099200}
+        m_TargetAssemblyTypeName: menu, Assembly-CSharp
+        m_MethodName: cambioMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1150149867
 MonoBehaviour:
   m_ObjectHideFlags: 0
